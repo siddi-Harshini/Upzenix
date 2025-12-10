@@ -1,73 +1,45 @@
+# 📝 React Registration Form with Validation
+
+A professional, production-ready React form application with comprehensive validation, React Router integration, and a beautiful responsive UI. Built following SOLID principles and best practices.
+
 ## 📽️ Demo  
-🔗 [Watch the Demo](https://youtu.be/UtlTa1Zlry0)  
+🔗 [Watch the Demo](https://youtu.be/UtlTa1Zlry0)
 
-# Getting Started with Create React App
+## ✨ Features
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Form Fields
+- **Personal Information**: First Name, Last Name
+- **Account Information**: Username, Email, Password (with show/hide toggle)
+- **Contact Information**: Phone Number + Country Code selector
+- **Location Information**: Country, City
+- **Government Identification**: PAN, Aadhaar
 
-## Available Scripts
+### Validation
+- ✅ Real-time field validation on blur
+- ✅ Form-level validation on submit
+- ✅ Custom regex patterns for PAN and Aadhaar
+- ✅ Email format validation
+- ✅ Password strength requirements (uppercase, lowercase, numbers)
+- ✅ Phone number validation (10 digits)
+- ✅ Conditional error messages
+- ✅ Touch tracking for better UX
 
-In the project directory, you can run:
+### Technical Features
+- ✅ React Hooks (useState, useCallback, useMemo)
+- ✅ Custom hooks for form and password logic
+- ✅ React Router v6 for navigation
+- ✅ Centralized validation utilities
+- ✅ SOLID principles architecture
+- ✅ Responsive design (mobile, tablet, desktop)
+- ✅ Accessibility features (ARIA labels, semantic HTML)
+- ✅ Smooth animations and transitions
+- ✅ Copy to clipboard functionality
+- ✅ Form data persistence across routes
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

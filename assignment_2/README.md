@@ -2,74 +2,163 @@
 🔗 [Watch the Demo](https://youtu.be/73e61vtSMq4)
 
 
+# 📝 To-Do List Application
 
-# Getting Started with Create React App
+A modern, fully-featured to-do list application built with React. Manage your tasks efficiently with a clean, responsive interface and persistent data storage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Features
 
-## Available Scripts
+- ✅ **Add Tasks** - Create new tasks with title and optional description
+- ✏️ **Edit Tasks** - Modify existing tasks at any time
+- 🗑️ **Delete Tasks** - Remove tasks you no longer need
+- ✔️ **Mark Complete/Undo** - Toggle task completion status with a single click
+- 🔍 **Filter Tasks** - View All, Active, or Completed tasks
+- 💾 **LocalStorage Persistence** - Tasks are automatically saved and persist across browser sessions
+- 📊 **Statistics Dashboard** - View total, active, and completed task counts
+- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
+- 🎨 **Modern UI** - Beautiful gradient design with smooth animations
 
-In the project directory, you can run:
+## 🛠️ Technologies Used
+
+- **React 18** - UI library
+- **React Hooks** - `useState` and `useEffect` for state management
+- **CSS3** - Modern styling with gradients and animations
+- **LocalStorage** - Client-side data persistence
+- **JavaScript ES6+** - Modern JavaScript features
+
+## 📦 Project Structure
+
+```
+src/
+├── App.js                 # Main component with state management
+├── App.css                # App styling
+├── components/
+│   ├── TaskForm.js        # Form for adding/editing tasks
+│   ├── TaskForm.css       # TaskForm styling
+│   ├── TaskList.js        # Display list of tasks
+│   ├── TaskList.css       # TaskList styling
+│   ├── TaskItem.js        # Individual task item
+│   ├── TaskItem.css       # TaskItem styling
+│   ├── FilterButtons.js   # Filter control buttons
+│   └── FilterButtons.css  # FilterButtons styling
+├── index.js               # React entry point
+└── index.css              # Global styling
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Navigate to the project directory:
+```bash
+cd assignment_2
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 📖 Usage
+
+### Adding a Task
+1. Enter a task title in the "Task Title" field
+2. (Optional) Add a description in the "Description" field
+3. Click "Add Task" button
+4. Task appears in the list on the right
+
+### Editing a Task
+1. Click the "Edit" button on any task
+2. Modify the title or description
+3. Click "Update Task"
+
+### Deleting a Task
+1. Click the "Delete" button on any task
+2. Task is removed immediately
+
+### Marking Tasks Complete
+1. Click the checkbox next to any task to mark it complete
+2. Completed tasks appear with strikethrough styling
+3. Click again to undo
+
+### Filtering Tasks
+- **All Tasks** - View all tasks
+- **Active** - Show only incomplete tasks
+- **Completed** - Show only completed tasks
+
+### Sample Data
+- Click "Load Sample Tasks" button to populate with example tasks for testing
+
+## 💾 Data Persistence
+
+All tasks are automatically saved to the browser's localStorage. Your data persists even after:
+- Refreshing the page
+- Closing the browser
+- Reopening the application
+
+## 📱 Responsive Breakpoints
+
+- **Desktop** (1024px+) - Two-column layout (Form left, Tasks right)
+- **Tablet** (768px-1023px) - Stacked layout with adjusted spacing
+- **Mobile** (< 768px) - Single column, optimized touch interface
+
+
+## 📝 Available Scripts
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode
 
 ### `npm run build`
+Builds the app for production to the `build` folder
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎓 Learning Outcomes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project demonstrates:
+- React component architecture
+- State management with `useState`
+- Side effects with `useEffect`
+- LocalStorage API usage
+- CSS Flexbox and Grid layouts
+- Responsive design principles
+- Component composition
+- Prop drilling and event handling
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔮 Future Enhancements
 
-### `npm run eject`
+- [ ] Add task categories/tags
+- [ ] Implement priority levels
+- [ ] Add due dates and reminders
+- [ ] Dark mode toggle
+- [ ] Export/Import tasks
+- [ ] User authentication
+- [ ] Cloud synchronization
+- [ ] Search functionality
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,9 +1,7 @@
 # 🎬 Assignment 3 — Movie Booking Admin Dashboard
 
 ## 📽️ Demo
-🔗 **Add demo video link here** — paste your demo URL below:
-
-`https://youtu.be/your-demo-link`
+🔗 'https://youtu.be/UUz_PDQVxAg'
 
 ---
 
@@ -74,18 +72,4 @@ npm start
 # open http://localhost:5173
 ```
 
-## 📖 Usage Notes
 
-- This scaffold focuses on frontend components. To persist data, connect the table and kanban board to an API (or add a mock server).  
-- The theme toggle adds/removes the `dark` class on the `document.documentElement` and saves the choice to `localStorage`.
-
-## ✅ Next steps you might want
-
-- Add authentication and real API endpoints
-- Replace demo data with a backend (REST or GraphQL)
-- Add more charts (revenue by movie, bookings by day)
-- Add tests and CI workflows
-
----
-
-If you'd like, paste your demo video link above and I can also add it into the README for you. 🎥

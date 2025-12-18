@@ -1,0 +1,6 @@
+# Local ignores for the assignment
+node_modules/
+build/
+dist/
+.env
+.DS_Store

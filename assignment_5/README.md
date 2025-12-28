@@ -4,7 +4,7 @@ A modern music streaming application built with React, Redux Toolkit, and Tailwi
 
 ## Demo
 
-> **Add your demo link, screenshots, or GIF here**
+> https://youtu.be/lzjtcgVfkvE
 
 <!-- Example:
 - **Live Demo**: [https://your-demo-link.com](https://your-demo-link.com)

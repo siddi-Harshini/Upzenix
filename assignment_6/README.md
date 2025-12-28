@@ -4,7 +4,7 @@ An advanced music streaming application with persistent state management, user p
 
 ## Demo
 
-> **Add your demo link, screenshots, or GIF here**
+> https://youtu.be/6CYp1qCY2hE
 
 <!-- Example:
 - **Live Demo**: [https://your-demo-link.com](https://your-demo-link.com)
